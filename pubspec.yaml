@@ -1,5 +1,7 @@
 name: safe_value_notifier
-description: A new Flutter package project.
+description: |
+  A safe drop-in replacement for Flutter's ValueNotifier, that makes
+  notifyListeners() a no-op, rather than an error, after its disposal.
 version: 0.0.1
 homepage: https://github.com/camrongiuliani/safe_value_notifier
 
